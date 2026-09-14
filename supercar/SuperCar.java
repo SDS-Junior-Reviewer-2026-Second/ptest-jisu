@@ -1,8 +1,8 @@
-class SuperCar {
+abstract class SuperCar {
 
     private String carName;
     public SuperCar(String carName) { this.carName = carName; }
-    void ride() {}
+    abstract void ride();
 }
 
 class Ferrari extends SuperCar {
